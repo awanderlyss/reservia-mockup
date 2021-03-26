@@ -12,7 +12,7 @@ Grey background #F2F2
 ### Dependencies
 Font Awesome library
 
-#### Features
+### Features
 - [ ] Users will be able to search for accommodations in the city of their choice. Therefore, the search field is an input field, the text of which can be edited by the user. However, at this stage, the search button will not be functional.
 - [ ] Each accommodation or activity card will have to be clickable in its entirety. For the moment, the links will be empty.
 - [ ] The filters will not be functional for this version; however, they must change their appearance when hovered over. I leave it up to you to decide the most appropriate effect.
