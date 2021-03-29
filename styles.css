@@ -1,1 +1,8 @@
+/* MAIN */
 body{font-family: 'Raleway', sans-serif;}
+.title{font-weight:bold;}
+
+/* FOOTER */
+.footer{background:#f2f2f2;display:flex}
+.links{flex-grow:1}
+.links a{text-decoration:none}
