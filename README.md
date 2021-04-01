@@ -23,10 +23,10 @@ Font Awesome library
 - [ ] As I didn't know which image sizes and formats you need, I exported a variety. I’ll let you choose the most suitable format concerning resolution and loading time.
 
 ### Manager Guidelines (Sarah)
-- [ ] Don't use a framework or a pre-compiler for this project (like SASS for instance): since you are just starting out, I prefer that  you sharpen your skills using HTML and CSS and learn to code from scratch. We want to test your skills on that!
-- [ ] I recommend using Visual Studio Code. The plugins can make your life easier (for example, Live Server or Prettier).
-- [ ] You can integrate Font Awesome icons in **HTML** or **CSS**. I strongly advise you to use **Flexbox**, but you can also use CSS Grid if you want.
+- [ X ] Don't use a framework or a pre-compiler for this project (like SASS for instance): since you are just starting out, I prefer that  you sharpen your skills using HTML and CSS and learn to code from scratch. We want to test your skills on that!
+- [ X ] I recommend using Visual Studio Code. The plugins can make your life easier (for example, Live Server or Prettier).
+- [ X ] You can integrate Font Awesome icons in **HTML** or **CSS**. I strongly advise you to use **Flexbox**, but you can also use CSS Grid if you want.
 - [ ] Your code will have to use semantic tags and not contain any errors or warnings when running it through the W3C HTML and CSS validator.
 - [ ] The site should be compatible with the latest versions of **Chrome** and **Firefox**.
-- [ ] Remember to separate HTML and CSS and to organize your folders accordingly.
-- [ ] Don't forget to version your code with Git from the beginning! It will help your team track your work. We use GitKraken as a Git client, it's nicer than the command line, but you can you use whatever you want. And then you need to deploy the page on GitHub Pages or GitLab Pages (your choice which one).
+- [ X ] Remember to separate HTML and CSS and to organize your folders accordingly.
+- [ X ] Don't forget to version your code with Git from the beginning! It will help your team track your work. We use GitKraken as a Git client, it's nicer than the command line, but you can you use whatever you want. And then you need to deploy the page on GitHub Pages or GitLab Pages (your choice which one).
