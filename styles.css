@@ -3,7 +3,8 @@ body{font-family: 'Raleway', sans-serif;margin:0;max-width:1440px;}
 p{margin-top:0;}
 a{text-decoration:none;}
 .title{font-weight:bold;margin:0;padding-bottom: .5rem;}
-header,article{padding:3% 0}
+header{padding:0 3%}
+article,footer{padding:3%}
 #accommodations .main-content .title, .sidebar .title, #activities .title, .links .title{padding-bottom:1.5rem}
 
 /* CARD STYLES */
@@ -59,5 +60,5 @@ article#activities .double{gap:2rem;}
 .single .card .img{padding-bottom:100%;flex-grow:2;}
 
 /* FOOTER */
-.footer{background:#f2f2f2;display:flex;padding:3%}
+.footer{background:#f2f2f2;display:flex}
 .links{flex-grow:1}
