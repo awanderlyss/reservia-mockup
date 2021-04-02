@@ -25,7 +25,7 @@ li.not-active a{color:#000}
 .search-container form{display:flex}
 .search-container input[type="text"]{margin:0 -4px;vertical-align:bottom;padding:.5rem 1rem;border:0;border-top:2px solid #f2f2f2;border-bottom:2px solid #f2f2f2;font-weight:bold;color:#000}
 .search-container label .marker{padding:10px 1rem;background-color:#f2f2f2;border-radius:.5rem 0 0 .5rem}
-.search-btn{border:0;padding:10px 1rem;background-color:#0065fc;color:white;font-weight:bold;border-radius:0 .5rem .5rem 0}
+.search-btn{border:0;padding:10px 1rem;background-color:#0065fc;color:white;font-weight:bold;border-radius:0 .5rem .5rem 0;cursor:pointer;}
 .search-btn i{display:none;}
 #filters{padding: 1rem 0;}
 .filters{list-style-type:none;margin:0;display:flex;flex-flow:row wrap;padding:0;}
