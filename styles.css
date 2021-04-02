@@ -5,7 +5,7 @@ body{font-family: 'Raleway', sans-serif;}
 .card:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
 .card .img{height:0;padding-bottom:56.25%}
 .card .title{margin:0}
-.card .content{padding:1rem}
+.card .content{padding:1rem;position:relative}
 
 /* SEARCH & FILTER */
 .filters{list-style-type:none;margin:0;display:flex;flex-flow:row wrap;padding:0;}
@@ -17,6 +17,18 @@ body{font-family: 'Raleway', sans-serif;}
 .filter:hover{cursor:pointer;box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);background-color:#f2f2f2}
 .info p{margin-bottom:0;}
 .info .icon{border-radius:50%;border:2px solid #f2f2f2;line-height:32px;width:32px;height:32px;text-align:center}
+
+/* ACCOMMODATIONS */
+#accommodations{display:inline-flex;align-items:flex-start;gap:2rem}
+.main-content,.sidebar{background:#f2f2f2;border-radius:1rem;padding:2rem}
+.sidebar{flex:0 0 25vw}
+#accommodations .cards.side{display:flex;flex-direction:column;gap:2rem}
+#accommodations .main-content .cards{display:flex;flex-flow:row wrap;gap:2rem}
+.main-content .card{flex:1 1 33%}
+.card.side{padding:.25rem;display:flex;flex-direction:row}
+.card.side .img{width:40%;border-radius:1rem 0 0 1rem}
+.card .stars{font-size:.75rem;color:#0065fc;align-self:flex-end;position:absolute;bottom:1rem;white-space:nowrap}
+.card .stars.one>i:not(:nth-of-type(1)),.card .stars.two>i:not(:nth-of-type(1)):not(:nth-of-type(2)),.card .stars.three>i:not(:nth-of-type(1)):not(:nth-of-type(2)):not(:nth-of-type(3)),.card .stars.four>i:nth-of-type(5){color:#f2f2f2}
 
 /* ACTIVITIES */
 article#activities{padding:3% 0}
