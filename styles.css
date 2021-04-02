@@ -3,7 +3,7 @@ body{font-family: 'Raleway', sans-serif;margin:0;max-width:1440px;}
 p{margin-top:0;}
 a{text-decoration:none;}
 .title{font-weight:bold;margin:0;padding-bottom: .5rem;}
-#activities{padding:3% 0}
+header,article,footer{padding:3%}
 #accommodations .main-content .title, .sidebar .title, #activities .title{padding-bottom:1.5rem}
 
 /* CARD STYLES */
