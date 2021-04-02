@@ -1,7 +1,11 @@
 /* MAIN */
 body{font-family: 'Raleway', sans-serif;margin:0;max-width:1440px;}
-.title{font-weight:bold;}
-.card{background-color:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
+p{margin-top:0;}
+a{text-decoration:none;}
+.title{font-weight:bold;margin:0;padding-bottom: .5rem;}
+
+/* CARD STYLES */
+.card{border-radius:1rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
 .card:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
 .card .img{height:0;padding-bottom:56.25%}
 .card .content{padding:1rem;position:relative}
@@ -13,7 +17,7 @@ header.header{display:inline-flex;flex-direction:row;justify-content:space-betwe
 .main-nav li:last-of-type(){padding-right:0}
 .signup{font-weight:bold}
 .mobile.signup{display:none}
-header.header a{text-decoration:none;color:#0065fc;display:block}
+header.header a{color:#0065fc;display:block}
 li.active{border-top:2px solid #0065fc}
 li.not-active a{color:#000}
 
@@ -22,6 +26,8 @@ li.not-active a{color:#000}
 .search-container input[type="text"]{margin:0 -4px;vertical-align:bottom;padding:.5rem 1rem;border:0;border-top:2px solid #f2f2f2;border-bottom:2px solid #f2f2f2;font-weight:bold;color:#000}
 .search-container label .marker{padding:10px 1rem;background-color:#f2f2f2;border-radius:.5rem 0 0 .5rem}
 .search-btn{border:0;padding:10px 1rem;background-color:#0065fc;color:white;font-weight:bold;border-radius:0 .5rem .5rem 0}
+.search-btn i{display:none;}
+#filters{padding: 1rem 0;}
 .filters{list-style-type:none;margin:0;display:flex;flex-flow:row wrap;padding:0;}
 .filter{display:inline-flex;align-items:center;border:2px solid #f2f2f2;border-radius:1rem;margin:.75rem;padding:0 1rem 0 2.75rem;position:relative}
 .filter.title{border:none;padding:0 3rem 0 0;margin-left:0;}
@@ -55,4 +61,3 @@ article#activities .double{gap:2rem;}
 /* FOOTER */
 .footer{background:#f2f2f2;display:flex}
 .links{flex-grow:1}
-.links a{text-decoration:none}
