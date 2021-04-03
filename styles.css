@@ -14,7 +14,7 @@ article,footer{padding:3%}
 .card .content{padding:1rem;position:relative}
 
 /* NAVIGATION */
-header.header{display:inline-flex;flex-direction:row;justify-content:space-between;align-items:center}
+header.header{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
 .main-nav{list-style-type:none;margin:0;display:inline-flex}
 .main-nav li{padding:1.5rem 1rem}
 .main-nav li:last-of-type(){padding-right:0}
