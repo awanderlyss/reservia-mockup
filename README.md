@@ -27,6 +27,8 @@ Font Awesome library
 - [X] I recommend using Visual Studio Code. The plugins can make your life easier (for example, Live Server or Prettier).
 - [X] You can integrate Font Awesome icons in **HTML** or **CSS**. I strongly advise you to use **Flexbox**, but you can also use CSS Grid if you want.
 - [X] Your code will have to use semantic tags and not contain any errors or warnings when running it through the W3C HTML and CSS validator.
+  - HTML: https://validator.w3.org/nu/?doc=http%3A%2F%2Falyssafelix.com%2Freservia-mockup%2F
+  - CSS:  http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Falyssafelix.com%2Freservia-mockup%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 - [ ] The site should be compatible with the latest versions of **Chrome** and **Firefox**.
 - [X] Remember to separate HTML and CSS and to organize your folders accordingly.
 - [X] Don't forget to version your code with Git from the beginning! It will help your team track your work. We use GitKraken as a Git client, it's nicer than the command line, but you can you use whatever you want. And then you need to deploy the page on GitHub Pages or GitLab Pages (your choice which one).
