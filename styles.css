@@ -5,16 +5,16 @@ a{text-decoration:none;color:inherit}
 .title{font-weight:bold;margin:0;padding-bottom: .5rem;}
 header,article#accommodations{padding:0 3%}
 footer,article#activities{padding:3%}
-article#accommodations > .title,.sidebar > .title, .links .title{padding-bottom:1.5rem}
+article#accommodations .main-content > .title,.sidebar > .title, .links .title{padding-bottom:1.5rem}
 
 /* CARD STYLES */
 .card{background-color:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
 .card:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
 .card .img{height:0;padding-bottom:56.25%;border-radius: 1rem 1rem 0 0;}
-.card .content{padding:.5rem;position:relative;display;flex;flex-direction:column}
+.card .content{padding:.5rem;position:relative;display;flex;flex-direction:column;flex:2;}
 
 /* HEADER / NAVIGATION */
-header.header{display:inline-flex;flex-direction:row;justify-content:space-between;align-items:center;width:100%}
+header.header{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
 header.header .logo{height:30px;}
 .main-nav{list-style-type:none;margin:0;display:inline-flex}
 .main-nav li{padding:1.75rem 1rem}
@@ -44,10 +44,10 @@ li.not-active a{color:#000}
 .info .icon{border-radius:50%;border:2px solid #f2f2f2;line-height:16px;width:16px;height:16px;text-align:center;font-size:.5rem;color:#0065fc;margin-right:.5rem;}
 
 /* ACCOMMODATIONS */
-#accommodations{display:flex;align-items:flex-start;}
+#accommodations{display:flex;flex-direction:column;?/*align-items:flex-start;*/}
 .main-content,.sidebar{background:#f2f2f2;border-radius:1rem;padding:1.75rem;flex:1;}
-.main-content{flex:2;}
-.sidebar{margin-left:2rem;}
+.main-content{flex:2;order:2}
+.sidebar{order:1}
 #accommodations .cards.side{display:flex;flex-direction:column;}
 #accommodations .main-content .cards{display:flex;flex-flow:row wrap;margin:0 -.875rem;}
 .main-content .card{flex:1 1 29%;margin:.875rem;padding:.25rem}
@@ -82,10 +82,18 @@ article#activities .double{gap:1.5rem;}
 @media screen and (min-width: 40em) {}
 
 /* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .sidebar{margin-bottom:1.5rem}
+  #accommodations .cards.side{display:flex;flex-direction:row;gap:1.5rem}
+  .card.side{flex:1}
+}
 
 /* Large and up */
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+  #accommodations{flex-direction:row;}
+  .main-content{order:2}
+  .sidebar{margin-left:2rem;order:1}
+}
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
