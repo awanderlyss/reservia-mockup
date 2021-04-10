@@ -67,6 +67,12 @@ article#activities .double{gap:1.5rem;}
 .links .title{padding-bottom:.75rem}
 
 /* MEDIA QUERIES */
+/* Extra Small Only */
+@media screen and (max-width:370px){
+  .search-container form{display:flex;flex-flow:row wrap;justify-content:end}
+  .search-container input[type="text"] {border-right: 2px solid #f2f2f2;padding: .5rem;}
+  .search-btn{border-radius:1rem;padding-top:1rem}
+}
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .main-nav{justify-content: space-between;}
