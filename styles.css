@@ -46,7 +46,7 @@ li.not-active a{color:inherit}
 .sidebar{order:1;background:#f2f2f2;}
 #accommodations .cards.side{display:flex;flex-direction:column;}
 #accommodations .main-content .cards{display:flex;flex-flow:column nowrap;}
-.main-content .card{flex:1 1 29%;margin:.875rem;padding:.25rem}
+.main-content .card{flex:1 1 25%;margin:.875rem;padding:.25rem}
 .card.side{padding:.25rem;display:flex;flex-direction:row}
 .card.side .img{width:35%;border-radius:1rem 0 0 1rem;padding-bottom:115px;max-height:115px}
 .card.side .desc{flex-grow: 1;}
@@ -99,7 +99,7 @@ article#activities .double{gap:1.5rem;}
   footer,article#activities{padding:3%}
   #activities .cards > div {flex:1 1;margin:.875rem}
   .show-more{margin-bottom:0}
-  article#accommodations .main-content > .title{padding-bottom:.875rem}
+  article#accommodations .main-content > .title,article#activities > .title{padding-bottom:.875rem}
 }
 
 /* Medium only */
