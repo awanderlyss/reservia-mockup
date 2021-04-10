@@ -44,7 +44,7 @@ li.not-active a{color:inherit}
 #accommodations .main-content .cards{display:flex;flex-flow:column nowrap}
 .main-content .card{flex:1 1 25%;margin:.875rem;padding:.25rem}
 .card.side{padding:.25rem;display:flex;flex-direction:row}
-.card.side .img{width:35%;border-radius:1rem 0 0 1rem;padding-bottom:115px;max-height:115px}
+.card.side .img{width:35%;border-radius:1rem 0 0 1rem;padding-bottom:107px;max-height:107px}
 .card.side .desc{flex-grow:1}
 .card .stars{font-size:.5rem;color:#0065fc;white-space:nowrap}
 .card .stars.one>i:not(:nth-of-type(1)),.card .stars.two>i:not(:nth-of-type(1)):not(:nth-of-type(2)),.card .stars.three>i:not(:nth-of-type(1)):not(:nth-of-type(2)):not(:nth-of-type(3)),.card .stars.four>i:nth-of-type(5){color:#f2f2f2}
