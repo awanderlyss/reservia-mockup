@@ -3,8 +3,6 @@ body{font-family: 'Raleway', sans-serif;font-size:12px;margin:0 auto;max-width:1
 p{margin-top:0;}
 a{text-decoration:none;color:inherit}
 .title{font-weight:bold;margin:0;padding-bottom: .5rem;}
-header,article#accommodations{padding:0 3%}
-footer,article#activities{padding:3%}
 article#accommodations .main-content > .title,.sidebar > .title{padding-bottom:1.5rem}
 
 /* CARD STYLES */
@@ -15,11 +13,12 @@ article#accommodations .main-content > .title,.sidebar > .title{padding-bottom:1
 
 /* HEADER / NAVIGATION */
 header.header{display:flex;flex-direction:column;}
+.logo-cont{display:flex;align-items:center;justify-content:space-between;padding:1rem 0 0}
 .main-nav{list-style-type:none;margin:0;padding:0;display:flex;flex-direction:row}
 .signup{font-weight:bold}
 header.header a{color:#0065fc;display:block}
 .main-nav li{padding:.75rem;border-bottom:2px solid #f2f2f2}
-li.active{border-color: #f2f2f2}
+li.active{border-color: #0065fc}
 li.not-active a{color:inherit}
 
 /* SEARCH & FILTER */
@@ -31,7 +30,7 @@ li.not-active a{color:inherit}
 #filters{padding: .75rem 0;}
 .filters{list-style-type:none;margin:0;display:flex;flex-flow:row wrap;padding:0;}
 .filter{display:inline-flex;align-items:center;border:2px solid #f2f2f2;border-radius:1.5rem;margin:.5rem;padding:0 1rem 0 2.5rem;position:relative}
-.filter.title{border:none;padding:0 1rem 0 0;margin-left:0;}
+.filter.title {border: none;padding: 0;margin: 0;width: 100%;}
 .filter,.filter .icon{font-weight:bold;height:2rem;line-height:2rem}
 .filter .icon{color:#0065fc;background:#deebff;font-size:.75rem;border-radius:50%;width:36px;line-height:36px;height:36px;text-align:center;position:absolute;top:-2px;left:-2px;bottom:-2px}
 .filter .fa-circle{color:#deebff}
@@ -75,6 +74,7 @@ article#activities .double{gap:1.5rem;}
 @media screen and (max-width: 39.9375em) {
   .main-nav{justify-content: space-between;}
   .main-nav li{flex: 1;text-align: center;}
+  .main-nav .sigup{display:none;}
   .search-container{padding:1.5rem 0 .75rem}
   .search-container p{padding-bottom:1rem}
   #locsearch{flex:2}
@@ -95,6 +95,9 @@ article#activities .double{gap:1.5rem;}
   #accommodations .main-content .cards{flex-flow:row wrap;}
   #activities .cards,.footer{flex-direction:row;}
   .single .card .img{padding-bottom:100%;flex-grow:2;}
+  .filter.title{border:none;padding:0 1rem 0 0;margin-left:0;}
+  header,article#accommodations{padding:0 3%}
+  footer,article#activities{padding:3%}
 }
 
 /* Medium only */
