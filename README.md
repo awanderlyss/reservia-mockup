@@ -1,5 +1,5 @@
-# reservia-mockup
-Project 2: Turn Mock-ups Into a Web Page
+# Project 2: Turn Mock-ups Into a Web Page
+Project URL: https://alyssafelix.com/reservia-mockup/
 
 ### Font
 Raleway
