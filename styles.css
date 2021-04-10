@@ -11,7 +11,7 @@ article#accommodations .main-content > .title,.sidebar > .title{padding-bottom:1
 .card{background-color:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:all .3s cubic-bezier(.25,.8,.25,1)}
 .card:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22)}
 .card .img{height:0;padding-bottom:40%;border-radius: 1rem 1rem 0 0;}
-.card .content{padding:.5rem;position:relative;display;flex;flex-direction:column;flex:2;}
+.card .content{padding:.5rem;position:relative;display:flex;flex-direction:column;flex:2;}
 
 /* HEADER / NAVIGATION */
 header.header{display:flex;flex-direction:column;}
@@ -41,7 +41,7 @@ li.not-active a{color:inherit}
 .info .icon{border-radius:50%;border:2px solid #f2f2f2;line-height:20px;width:24px;height:20px;text-align:center;font-size:.5rem;color:#0065fc;margin-right:.5rem;}
 
 /* ACCOMMODATIONS */
-#accommodations{display:flex;flex-direction:column;?/*align-items:flex-start;*/}
+#accommodations{display:flex;flex-direction:column;}
 .main-content,.sidebar{padding:1.75rem;flex:1;}
 .main-content{flex:2;order:2}
 .sidebar{order:1;background:#f2f2f2;}
@@ -59,13 +59,13 @@ li.not-active a{color:inherit}
 .title.popular::after{font-family:"Font Awesome 5 Free";font-weight:900;content:"\f201";display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;position:absolute;right:0}
 
 /* ACTIVITIES */
-#activities .cards{display:flex;flex-direction:row;margin: 0 -.875rem}
+#activities .cards{display:flex;flex-direction:column;margin: 0 -.875rem}
 #activities .cards > div {flex:1 1;margin:.875rem}
 .single .card, article#activities .cards .double{height:100%;display:flex;flex-direction:column;}
 article#activities .double{gap:1.5rem;}
 
 /* FOOTER */
-.footer{background:#f2f2f2;display:flex}
+.footer{background:#f2f2f2;display:flex;flex-direction:column}
 .links{flex-grow:1}
 .links p:last-of-type{margin:0}
 .links .title{padding-bottom:.75rem}
@@ -79,6 +79,7 @@ article#activities .double{gap:1.5rem;}
   .search-container p{padding-bottom:1rem}
   #locsearch{flex:2}
   .footer > div:not(:last-of-type){padding-bottom:2rem}
+  .card{margin: 0 0 1rem 0 !important;}
 }
 
 /* Medium and up */
@@ -90,7 +91,9 @@ article#activities .double{gap:1.5rem;}
   .main-nav li:last-of-type(){padding-right:0}
   .info{width:33%}
   .main-content,.sidebar{background:#f2f2f2;border-radius:1rem;}
+  #accommodations{align-items:flex-start;}
   #accommodations .main-content .cards{flex-flow:row wrap;}
+  #activities .cards,.footer{flex-direction:row;}
   .single .card .img{padding-bottom:100%;flex-grow:2;}
 }
 
