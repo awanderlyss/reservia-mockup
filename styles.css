@@ -45,7 +45,7 @@ li.not-active a{color:inherit}
 .main-content{flex:2;order:2}
 .sidebar{order:1;background:#f2f2f2;}
 #accommodations .cards.side{display:flex;flex-direction:column;}
-#accommodations .main-content .cards{display:flex;flex-flow:column nowrap;margin:0 -.875rem;}
+#accommodations .main-content .cards{display:flex;flex-flow:column nowrap;}
 .main-content .card{flex:1 1 29%;margin:.875rem;padding:.25rem}
 .card.side{padding:.25rem;display:flex;flex-direction:row}
 .cards.side > div:not(:last-of-type) {margin-bottom: 1.75rem;}
@@ -92,7 +92,7 @@ article#activities .double{gap:1.5rem;}
   .info{width:33%}
   .main-content,.sidebar{background:#f2f2f2;border-radius:1rem;}
   #accommodations{align-items:flex-start;}
-  #accommodations .main-content .cards{flex-flow:row wrap;}
+  #accommodations .main-content .cards{flex-flow:row wrap;margin:0 -.875rem;}
   #activities .cards,.footer{flex-direction:row;}
   .single .card .img{padding-bottom:100%;flex-grow:2;}
   .filter.title{border:none;padding:0 1rem 0 0;margin-left:0;}
