@@ -99,6 +99,7 @@ article#activities .double{gap:1.5rem;}
   footer,article#activities{padding:3%}
   #activities .cards > div {flex:1 1;margin:.875rem}
   .show-more{margin-bottom:0}
+  article#accommodations .main-content > .title{padding-bottom:.875rem}
 }
 
 /* Medium only */
